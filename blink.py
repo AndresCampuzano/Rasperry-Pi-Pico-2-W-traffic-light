@@ -2,9 +2,9 @@ from machine import Pin
 from utime import sleep
 
 # Define the GPIO pins for each LED
-red_led = Pin(15, Pin.OUT)    # GPIO 15
-yellow_led = Pin(14, Pin.OUT)  # GPIO 14
-green_led = Pin(13, Pin.OUT)   # GPIO 13
+red_led = Pin(15, Pin.OUT)    # GPIO 15 : Pin 20
+yellow_led = Pin(14, Pin.OUT)  # GPIO 14 : Pin 19
+green_led = Pin(2, Pin.OUT)   # GPIO 2 : Pin 4
 pico_led = Pin("LED", Pin.OUT)  # Onboard LED
 
 def setup_leds():
