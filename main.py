@@ -19,19 +19,19 @@ def traffic_light():
     green_led.on()
     yellow_led.off()
     red_led.off()
-    sleep(4.5)
+    sleep(0.5)
     
     # Yellow light for 1.5 seconds
     green_led.off()
     yellow_led.on()
     red_led.off()
-    sleep(1.5)
+    sleep(0.5)
     
     # Red light for 4.5 seconds
     green_led.off()
     yellow_led.off()
     red_led.on()
-    sleep(4.5)
+    sleep(0.5)
 
 print("Traffic light starting...")
 setup_leds()
